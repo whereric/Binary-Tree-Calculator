@@ -1,4 +1,4 @@
-#Binary Tree
+# Binary Tree
 
 This program is an implementation of a self-balancing binary search tree written in C++ in a Data Structures class at UC San Diego. 
 The tree can perform all basic functions such as inserting, deleting, and searching items. The implementation of the tree is done using a 
@@ -9,7 +9,7 @@ calls were recursive. The functions were written so that each recursive call was
 to traverse the tree. When the program ends, all Tnodes are deleted in post order to prevent memory leaks. The code above was tested 
 extensively using Valgrind.
 
-##Calculator
+## Calculator
 
 There is also an implementation of a calculator written in C++ using two stacks. Input from the user is recorded in intopost format into a
 stack, with one stack that holds the values and another stack that holds the operands used. A function called *Eval* then evaluates the 
